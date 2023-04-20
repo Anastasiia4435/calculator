@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dongle', sans-serif;}
+
+body {
+    background-color: rgb(15, 15, 15);
+}
+
+.title {
+    color:rgb(83, 83, 83);
+    text-align: center;
+    font-size: 80px;
+    padding-top: 15px;
+}
+
+.text-input {
+    width: 400px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    background-color: rgb(83, 83, 83);
+    color: rgb(131, 131, 131);
+    font-size: 40px;
+    padding-left: 15px;
+}
+
+.text-input2 {
+    width: 400px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    background-color: rgb(83, 83, 83);
+    color: rgb(131, 131, 131);
+    font-size: 40px;
+    padding-left: 15px;
+}
+
+.inputs {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin-top: 30px;
+}
+
+.results {
+    color:rgb(83, 83, 83);
+    text-align: center;
+    font-size: 70px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.button {
+    color:rgb(131, 131, 131);
+    display: block;
+    box-sizing: border-box;
+    background-color: rgb(83, 83, 83);
+    text-decoration: none;
+    font-size: 40px;
+    width: 300px;
+    height: 55px;
+    border-radius: 100px;
+    margin: auto;
+    transition: 0.5s;
+    border: none;
+}
+
+.button:hover {
+    background-color: rgb(105, 105, 105);
+    color:rgb(156, 156, 156);
+    transition: 0.5s;
+}
